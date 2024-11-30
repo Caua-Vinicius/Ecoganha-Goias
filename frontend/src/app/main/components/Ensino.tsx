@@ -13,7 +13,7 @@ export function Ensino() {
       </h1>
       <div className="flex justify-around">
         {cursos.map((item, index) => (
-          <div>
+          <div key={index}>
             <Link href={item.url}>
               <Image
                 src={item.imagem}
