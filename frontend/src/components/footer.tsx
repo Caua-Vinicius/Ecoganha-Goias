@@ -9,7 +9,7 @@ export function Footer() {
       </p>
       <div className="flex items-center justify-center gap-[2vh] mt-[1vh]">
         <Image
-          src={"/icons/instagram.svg"}
+          src={"/icons/Instagram.svg"}
           alt="Instagram"
           width={1000}
           height={1000}
