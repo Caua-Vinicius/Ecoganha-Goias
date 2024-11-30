@@ -19,7 +19,7 @@ export default function TrocaPontos() {
           style={{ boxShadow: "-5px 4px 4px 2px rgba(0, 0, 0, 0.25)" }}
         >
           <Image
-            src="/Icons/IconClaro.svg"
+            src="/icons/IconClaro.svg"
             className=" h-full rounded-l-lg"
             alt="Claro"
             width={100}
