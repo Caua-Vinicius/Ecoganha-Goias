@@ -7,33 +7,29 @@ import ModalAviso from "../main/components/modalAviso";
 export default function Collection() {
   const cooperativas = [
     {
-      name: "Cooper Rama Cooperativa de Reciclagem",
-      address:
-        "Estr. 113, 293 - Chácaras Recreio São Joaquim, Goiânia - GO, 74470-210",
+      "name": "Cooper Rama Cooperativa de Reciclagem",
+      "address": "Rua da Conceição, 123 - Centro, Caruaru - PE, 55004-000"
     },
     {
-      name: "Cooperativa Goiânia Viva",
-      address: "R. FP 28 - Recreio dos Funcionários Públicos, Goiânia - GO",
+      "name": "Cooperativa Pernambuco Viva",
+      "address": "Av. Agamenon Magalhães, 456 - Maurício de Nassau, Caruaru - PE, 55012-290"
     },
     {
-      name: "Fênix Carrossel - Cooperativa de Trabalho dos Catadores de Materiais Recicláveis",
-      address:
-        "R. 8, Qd. 97 - Lt.01 - St. Santos Dumont, Goiânia - GO, 74463-500",
+      "name": "Fênix Carrossel - Cooperativa de Trabalho dos Catadores de Materiais Recicláveis",
+      "address": "Rua Silvino Macedo, 789 - Nossa Senhora das Dores, Caruaru - PE, 55004-080"
     },
     {
-      name: "Cooperativa de Trabalho dos Catadores de Material Reciclável Família Feliz",
-      address:
-        "Estr. p/ Aterro Sanitário - Chácaras Recreio São Joaquim, Goiânia - GO, 74495-710",
+      "name": "Cooperativa de Trabalho dos Catadores de Material Reciclável Família Feliz",
+      "address": "Av. Rio Branco, 101 - Centro, Caruaru - PE, 55004-180"
     },
     {
-      name: "Cooperativa SELETA",
-      address:
-        "Av. Ribeirão Preto, 323-459 - Jardim Novo Mundo, Goiânia - GO, 74715-430",
+      "name": "Cooperativa SELETA",
+      "address": "Rua Capitão João Velho, 202 - Indianópolis, Caruaru - PE, 55024-000"
     },
     {
-      name: "COOPER FAMI",
-      address: "St. Barra da Tijuca, Goiânia - GO",
-    },
+      "name": "COOPER FAMI",
+      "address": "Rua Frei Caneca, 303 - Salgado, Caruaru - PE, 55016-000"
+    },    
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
